@@ -1,10 +1,8 @@
 package fizzbuzz
 
 import (
-	"fmt"
 	"strconv"
 )
-
 
 func fbdetection(i int) string {
 	switch {
@@ -20,27 +18,8 @@ func fbdetection(i int) string {
 
 }
 
+/*
 func fizzbuzz() {
-
 	fmt.Println("derp")
-
-
-
-
-
 }
-
-
-/*)	for i := 0; i <= 1000000; i++ {
-		switch {
-				case i%3 == 0 && i%5 == 0:
-					fmt.Println("FizzBuzz")
-				case i%3 == 0 && i%5 != 0:
-					fmt.Println("Fizz")
-				case i%3 != 0 && i%5 == 0:
-					fmt.Println("Buzz")
-				default:
-					fmt.Println(i)
-		}
-	}
 */
